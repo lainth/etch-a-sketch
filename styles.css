@@ -4,6 +4,36 @@ h1 {
   font-size: 60px;
 }
 
+button {
+  padding: 5px 10px;
+}
+
+.gen-btn {
+  text-align: center;
+}
+
 .container {
+  display: grid;
+  border: solid 2px black;
+  max-width: 500px;
+  min-height: 500px;
+  margin: 50px auto;
+}
+
+.container > .grid-item {
+  border: solid 1px black;
+  background-color: rgb(255, 255, 255);
+}
+
+.item {
+  background-color: azure;
+  border: solid 1px black;
+}
+
+#title {
+  text-align: center;
+}
+
+#button {
   text-align: center;
 }
